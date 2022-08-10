@@ -1,0 +1,30 @@
+.taskContainer {
+  padding-top: 20px;
+  textarea {
+    padding: 5px 10px;
+    width: 100%;
+    max-height: 150px;
+    resize: vertical;
+  }
+  .errorContainer {
+    margin-top: -5px;
+    .errorMessage {
+      line-height: 0.7;
+      font-size: 12px;
+      color: red;
+    }
+  }
+  li {
+    padding: 5px 10px;
+    list-style: none;
+    span {
+      padding: 0 10px;
+    }
+    .iconImage {
+      cursor: pointer;
+    }
+    .done {
+      text-decoration: line-through;
+    }
+  }
+}
