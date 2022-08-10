@@ -23,7 +23,7 @@ To run the app locally, you have to install:
 #### 2. Run application locally
 1. Clone the repo:
 ```
-git clone https://github.com/OlegTehno/calendar-test-task.git
+git clone https://github.com/OlegShyian/calendar-test-task.git
 ```
 
 2. Open the repo folder:
