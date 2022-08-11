@@ -32,6 +32,9 @@ export const CalendarView = () => {
     removeFromLS('user');
     navigate('/login');
   };
+  if (!user) {
+    dispatch(logout());
+  }
 
   return (
     <div className={styles.mainContainer}>

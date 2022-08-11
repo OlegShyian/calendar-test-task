@@ -2,8 +2,9 @@ import { getFromLS } from '../../utils';
 import { userConstants } from '../constants';
 
 const user = getFromLS('user', {});
-const initialState = user ? { loggedIn: true, user } : { loggedIn: false, user: {} };
+const initialState = user.userName ? { loggedIn: true, user } : { loggedIn: false, user: {} };
 
+console.log(initialState);
 export const userReducer = (state = initialState, { type, payload }) => {
   switch (type) {
     case userConstants.USER_LOGIN:
